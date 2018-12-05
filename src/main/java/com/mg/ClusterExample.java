@@ -51,7 +51,8 @@ public class ClusterExample {
 
 		// First we must get a reference to a scheduler
 		SchedulerFactory sf = new StdSchedulerFactory();
-	    Scheduler sched = sf.getScheduler();
+
+		Scheduler sched = sf.getScheduler();
 	    
 		if (inClearJobs) {
 			sched.clear();
